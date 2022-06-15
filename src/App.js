@@ -1,7 +1,13 @@
 import React from "react";
-
+import WalletCard from "./Componenet/WalletCard";
+import Header from "./Componenet/Header";
 const App = () => {
-  return <div>Connecting to MetaMask with React and Web3</div>;
+  return (
+    <div>
+      Coonection
+      <WalletCard />
+    </div>
+  );
 };
 
 export default App;
