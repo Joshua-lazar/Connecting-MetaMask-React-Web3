@@ -1,13 +1,7 @@
-import React from "react";
-import WalletCard from "./Componenet/WalletCard";
-import Header from "./Componenet/Header";
+import React from 'react';
+
 const App = () => {
-  return (
-    <div>
-      Coonection
-      <WalletCard />
-    </div>
-  );
+  return <div>App</div>;
 };
 
 export default App;
